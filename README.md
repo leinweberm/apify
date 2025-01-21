@@ -20,7 +20,9 @@
 7. This is an example response of the JSON API. `total` means how many products there are on the API for this price range (it will be a different number for whole website or different price range). `count` means how many were returned on this API call (max is 1000). `products` is an array with the length of `count`. We don't care about what is inside the product objects.
 ```json
 {
-
+  "total": 0,
+  "count": 0,
+  "products": [{}, {}]
 }
 ```
 - Is there some expectations your code relies on? If yes, write it in the comments. Could the code be written in a way that does not depend on these expectations?
